@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36896" started-at="2019-07-14T02:08:28Z" finished-at="2019-07-14T02:09:05Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="36896" started-at="2019-07-14T02:08:28Z" finished-at="2019-07-14T02:09:05Z">
+      <class name="mainScript.DriverScript">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:mainScript.DriverScript@29774679]" name="preCondition" is-config="true" duration-ms="16849" started-at="2019-07-14T02:08:28Z" finished-at="2019-07-14T02:08:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="tc01()[pri:1, instance:mainScript.DriverScript@29774679]" name="tc01" duration-ms="9267" started-at="2019-07-14T02:08:45Z" finished-at="2019-07-14T02:08:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01 -->
+        <test-method status="PASS" signature="tc02()[pri:2, instance:mainScript.DriverScript@29774679]" name="tc02" duration-ms="4108" started-at="2019-07-14T02:08:54Z" finished-at="2019-07-14T02:08:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02 -->
+        <test-method status="PASS" signature="tc03()[pri:3, instance:mainScript.DriverScript@29774679]" name="tc03" duration-ms="5548" started-at="2019-07-14T02:08:59Z" finished-at="2019-07-14T02:09:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03 -->
+        <test-method status="PASS" signature="tc04()[pri:4, instance:mainScript.DriverScript@29774679]" name="tc04" duration-ms="345" started-at="2019-07-14T02:09:04Z" finished-at="2019-07-14T02:09:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:mainScript.DriverScript@29774679]" name="close" is-config="true" duration-ms="743" started-at="2019-07-14T02:09:04Z" finished-at="2019-07-14T02:09:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- mainScript.DriverScript -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
