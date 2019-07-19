@@ -22,6 +22,8 @@ public class DriverScript {
 	CommonMethods.openURL(ConstantValues.URL);
 	}
 
+	//--------------This is just for testing Jenkins----------------------
+	
 	@Test(priority=1)
 	public void tc01() throws Exception {
 		//-----------------------TC001---------------------------------------------------------------------	
