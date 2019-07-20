@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="32871" started-at="2019-07-19T12:19:18Z" finished-at="2019-07-19T12:19:51Z">
+  <suite name="Suite" duration-ms="35118" started-at="2019-07-20T01:54:15Z" finished-at="2019-07-20T01:54:50Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="32871" started-at="2019-07-19T12:19:18Z" finished-at="2019-07-19T12:19:51Z">
+    <test name="Test" duration-ms="35118" started-at="2019-07-20T01:54:15Z" finished-at="2019-07-20T01:54:50Z">
       <class name="mainScript.DriverScript">
-        <test-method status="PASS" signature="preCondition()[pri:0, instance:mainScript.DriverScript@180bc464]" name="preCondition" is-config="true" duration-ms="14769" started-at="2019-07-19T12:19:18Z" finished-at="2019-07-19T12:19:33Z">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:mainScript.DriverScript@180bc464]" name="preCondition" is-config="true" duration-ms="13914" started-at="2019-07-20T01:54:15Z" finished-at="2019-07-20T01:54:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="tc01()[pri:1, instance:mainScript.DriverScript@180bc464]" name="tc01" duration-ms="7789" started-at="2019-07-19T12:19:33Z" finished-at="2019-07-19T12:19:41Z">
+        <test-method status="PASS" signature="tc01()[pri:1, instance:mainScript.DriverScript@180bc464]" name="tc01" duration-ms="9963" started-at="2019-07-20T01:54:29Z" finished-at="2019-07-20T01:54:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc01 -->
-        <test-method status="PASS" signature="tc02()[pri:2, instance:mainScript.DriverScript@180bc464]" name="tc02" duration-ms="3802" started-at="2019-07-19T12:19:41Z" finished-at="2019-07-19T12:19:44Z">
+        <test-method status="PASS" signature="tc02()[pri:2, instance:mainScript.DriverScript@180bc464]" name="tc02" duration-ms="4382" started-at="2019-07-20T01:54:39Z" finished-at="2019-07-20T01:54:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc02 -->
-        <test-method status="PASS" signature="tc03()[pri:3, instance:mainScript.DriverScript@180bc464]" name="tc03" duration-ms="5599" started-at="2019-07-19T12:19:44Z" finished-at="2019-07-19T12:19:50Z">
+        <test-method status="PASS" signature="tc03()[pri:3, instance:mainScript.DriverScript@180bc464]" name="tc03" duration-ms="5631" started-at="2019-07-20T01:54:44Z" finished-at="2019-07-20T01:54:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc03 -->
-        <test-method status="PASS" signature="tc04()[pri:4, instance:mainScript.DriverScript@180bc464]" name="tc04" duration-ms="198" started-at="2019-07-19T12:19:50Z" finished-at="2019-07-19T12:19:50Z">
+        <test-method status="PASS" signature="tc04()[pri:4, instance:mainScript.DriverScript@180bc464]" name="tc04" duration-ms="456" started-at="2019-07-20T01:54:49Z" finished-at="2019-07-20T01:54:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc04 -->
-        <test-method status="PASS" signature="tc05()[pri:5, instance:mainScript.DriverScript@180bc464]" name="tc05" duration-ms="0" started-at="2019-07-19T12:19:50Z" finished-at="2019-07-19T12:19:50Z">
+        <test-method status="PASS" signature="tc05()[pri:5, instance:mainScript.DriverScript@180bc464]" name="tc05" duration-ms="0" started-at="2019-07-20T01:54:50Z" finished-at="2019-07-20T01:54:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc05 -->
-        <test-method status="PASS" signature="close()[pri:0, instance:mainScript.DriverScript@180bc464]" name="close" is-config="true" duration-ms="684" started-at="2019-07-19T12:19:50Z" finished-at="2019-07-19T12:19:51Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:mainScript.DriverScript@180bc464]" name="close" is-config="true" duration-ms="732" started-at="2019-07-20T01:54:50Z" finished-at="2019-07-20T01:54:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
