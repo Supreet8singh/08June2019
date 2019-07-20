@@ -7,7 +7,7 @@ import utilites.CommonMethods;
 
 public class HomePage {
 
-	public void fromLocation() {
+	public void fromLocation() throws Exception {
 	
 	for (int i = 0; i < 20; i++) {
 		CommonMethods.handlingKeyBoardKeys(Keys.BACK_SPACE, ConstantLocators.fromLocation_HomePage);
@@ -23,7 +23,7 @@ public class HomePage {
 		Thread.sleep(2000);
 	}
 	
-	public void monthYearSelection() {
+	public void monthYearSelection() throws Exception {
 	// Select a particular month and Year
 	for (int i = 0; i < 12; i++) {
 		
@@ -37,11 +37,11 @@ public class HomePage {
 	}
 	}
 	
-	public void dateSelection() {
+	public void dateSelection() throws Exception {
 		CommonMethods.handlingTables(ConstantValues.dateValue, ConstantLocators.dateSelectionLocation_HomePage);
 	}
 	
-	public void searchFlightButton() {
+	public void searchFlightButton() throws Exception {
 		CommonMethods.handlingClicks(ConstantLocators.searchFlightLocation_HomePage);
 	}
 }

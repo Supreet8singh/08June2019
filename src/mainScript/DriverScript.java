@@ -99,7 +99,7 @@ public class DriverScript {
 	}	
 	
 	@AfterClass
-	public void close() {
+	public void close() throws Exception {
 		CommonMethods.closeBrowser();
 	}
   }

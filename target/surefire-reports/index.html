@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 3 failed,   2 passed</span>
+                    <span class="method-stats">5 methods, 4 failed,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -100,6 +100,11 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
                     </span>
                     <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="mainScript.DriverScript" hash-for-method="tc01">tc01</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="mainScript.DriverScript" hash-for-method="tc02">tc02</a> <!-- method navigator-link -->
@@ -126,11 +131,6 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="mainScript.DriverScript" hash-for-method="tc01">tc01</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="mainScript.DriverScript" hash-for-method="tc05">tc05</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -154,11 +154,22 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="tc01">
+                  </a> <!-- tc01 -->
+                  <span class="method-name">tc01</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at mainScript.DriverScript.tc01(DriverScript.java:37)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="tc02">
                   </a> <!-- tc02 -->
                   <span class="method-name">tc02</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at mainScript.DriverScript.tc02(DriverScript.java:53)
+	at mainScript.DriverScript.tc02(DriverScript.java:54)
 ... Removed 33 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -169,7 +180,7 @@
                   </a> <!-- tc03 -->
                   <span class="method-name">tc03</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at mainScript.DriverScript.tc03(DriverScript.java:70)
+	at mainScript.DriverScript.tc03(DriverScript.java:71)
 ... Removed 33 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -180,7 +191,7 @@
                   </a> <!-- tc04 -->
                   <span class="method-name">tc04</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at mainScript.DriverScript.tc04(DriverScript.java:86)
+	at mainScript.DriverScript.tc04(DriverScript.java:87)
 ... Removed 33 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -193,13 +204,6 @@
               <span class="class-name">mainScript.DriverScript</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc01">
-                  </a> <!-- tc01 -->
-                  <span class="method-name">tc01</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="tc05">
@@ -263,21 +267,21 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'tc03')
+data.setCell(0, 1, 'tc01')
 data.setCell(0, 2, 'mainScript.DriverScript')
-data.setCell(0, 3, 22954);
+data.setCell(0, 3, 19634);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'tc01')
+data.setCell(1, 1, 'tc03')
 data.setCell(1, 2, 'mainScript.DriverScript')
-data.setCell(1, 3, 13290);
+data.setCell(1, 3, 13763);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'tc02')
 data.setCell(2, 2, 'mainScript.DriverScript')
-data.setCell(2, 3, 10919);
+data.setCell(2, 3, 13425);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'tc04')
 data.setCell(3, 2, 'mainScript.DriverScript')
-data.setCell(3, 3, 288);
+data.setCell(3, 3, 278);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'tc05')
 data.setCell(4, 2, 'mainScript.DriverScript')
@@ -318,34 +322,36 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">tc01</span>
-                <span class="method-start">12070 ms</span>
+                <span class="method-start">11708 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">tc02</span>
-                <span class="method-start">25363 ms</span>
+                <span class="method-start">31351 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">tc03</span>
-                <span class="method-start">36290 ms</span>
+                <span class="method-start">44778 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">tc04</span>
-                <span class="method-start">59245 ms</span>
+                <span class="method-start">58542 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">tc05</span>
-                <span class="method-start">59533 ms</span>
+                <span class="method-start">58822 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">close</span>
-                <span class="method-start">59534 ms</span>
+                <span class="method-start">58822 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

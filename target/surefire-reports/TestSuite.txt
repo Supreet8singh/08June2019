@@ -1,16 +1,20 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 61.116 s <<< FAILURE! - in TestSuite
-tc02(mainScript.DriverScript)  Time elapsed: 10.925 s  <<< FAILURE!
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 60.447 s <<< FAILURE! - in TestSuite
+tc01(mainScript.DriverScript)  Time elapsed: 19.642 s  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
-	at mainScript.DriverScript.tc02(DriverScript.java:53)
+	at mainScript.DriverScript.tc01(DriverScript.java:37)
 
-tc03(mainScript.DriverScript)  Time elapsed: 22.955 s  <<< FAILURE!
+tc02(mainScript.DriverScript)  Time elapsed: 13.425 s  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
-	at mainScript.DriverScript.tc03(DriverScript.java:70)
+	at mainScript.DriverScript.tc02(DriverScript.java:54)
 
-tc04(mainScript.DriverScript)  Time elapsed: 0.288 s  <<< FAILURE!
+tc03(mainScript.DriverScript)  Time elapsed: 13.764 s  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
-	at mainScript.DriverScript.tc04(DriverScript.java:86)
+	at mainScript.DriverScript.tc03(DriverScript.java:71)
+
+tc04(mainScript.DriverScript)  Time elapsed: 0.279 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at mainScript.DriverScript.tc04(DriverScript.java:87)
 

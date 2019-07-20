@@ -10,7 +10,7 @@ public class ConstantLocators {
 	public static String monthLocation_HomePage = "xpath://*[starts-with(@id,'dp15')]/div/div[2]/div/div/span[1]";
 	public static String yearLocation_HomePage = "xpath://*[starts-with(@id,'dp15')]/div/div[2]/div/div/span[2]";
 	public static String dateSelectionLocation_HomePage = "xpath://*[starts-with(@id,'dp15')]/div/div[2]/table/tbody/tr";
-	public static String searchFlightLocation_HomePage = "xpath://*[@id='bookFlightTab']/form/div[7]/div[6]/button/span[1]";
+	public static String searchFlightLocation_HomePage = "xpath://*[@id='bookFlightTab']/form/div[7]/div[6]/button/span[1]*******************";
 	
 	public static String flightPriceLocation_SearchFlightPage = "xpath://*[@id='bookingWidgetContainer']/div/div/div/div[2]/div[3]/div/div[1]/span";
 	public static String contactUsLocation_SearchFlightPage = "linktext:Contact us";
